@@ -81,6 +81,7 @@ section h3{
 .title{
     text-align: center;
     padding-top: 50px;
+    color:rgb(103, 103, 103);
 }
 .text{
     margin: 0px 500px;
@@ -109,16 +110,19 @@ section h3{
     border-radius: 20px;
     margin: 70px 140px;
     padding: 0px 60px;
+    
 }
 
 .popularity-view{
     padding-right: 250px;
-    padding-top: 0px;
+     
     height: 200px;
+    
 }
 
 .view-count{
     padding-bottom: 0px;
+    margin-top: 30px;
     height:30px;
 }
 
@@ -131,11 +135,24 @@ section h3{
 
 footer{
     background-color:black;
-    height: 200px;
+    height: 180px;
     padding-bottom: 0px;
+    padding-top: 20px;
     margin-bottom: 0px;
 }
 
-footer h2{
-    
+footer h2{ 
+    margin-top: 20px;
+    text-align: center;
+    color: rgb(91, 91, 91);
+}
+
+footer h2 span{
+    color: rgb(251, 153, 76);
+}
+
+footer h4{
+    color:white;
+    text-align: center;
+    margin-bottom: 10px;
 }
