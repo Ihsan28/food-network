@@ -1,0 +1,70 @@
+section{
+    display: flex;
+    font-family: 'Montserrat', sans-serif;
+    margin-top: 7em;
+}
+section a{
+    text-decoration: none;
+    
+    color: white;
+    background-image: linear-gradient(orange,tomato);
+    margin-top: 100px;
+    padding: 10px 20px;
+    
+    border-radius:20px;
+    /* box-shadow: 2px 2px 2px 10px rgb(250, 246, 239);  */
+}
+section h1{
+    font-weight: 500;
+    font-size:  5em;
+}
+
+section h3{
+    font-weight: 400;
+   
+}
+
+.top-banner{
+    margin-left: 100px;
+    padding: 10px;
+}
+.img{
+    padding: 0px 50px 0px 50px;
+}
+
+.top-text{
+    padding-bottom: 50px;
+}
+
+.orange-color{
+    color:rgb(251, 148, 74);
+}
+.half-width{
+    width: 50%;
+}
+
+.second-banner{
+    /* background-color: rgb(254, 244, 237); */
+    background-image: url("images/shapes/7.png");
+    /* height: 40%; */
+    background-repeat: no-repeat;
+    background-size: ;
+
+}
+
+#person-image{
+    height: 500px;
+    
+    padding-left: 250px;
+    padding-top: 90px;
+    
+}
+
+#about-me{
+    color: rgb(112, 112, 112);
+}
+
+#second-text-area{
+    padding-bottom: 50px;
+    padding-right: 200px;
+}
