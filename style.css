@@ -1,3 +1,8 @@
+*{
+    box-sizing: border-box;
+    /* margin: 0; */
+    /* padding: 0; */
+}
 section{
     display: flex;
     font-family: 'Montserrat', sans-serif;
@@ -12,7 +17,7 @@ section a{
     padding: 10px 20px;
     
     border-radius:20px;
-    /* box-shadow: 2px 2px 2px 10px rgb(250, 246, 239);  */
+    box-shadow: 0 0 2px 10px rgb(250, 246, 239); 
 }
 section h1{
     font-weight: 500;
@@ -43,6 +48,10 @@ section h3{
     width: 50%;
 }
 
+
+
+
+
 .second-banner{
     /* background-color: rgb(254, 244, 237); */
     background-image: url("images/shapes/7.png");
@@ -67,4 +76,66 @@ section h3{
 #second-text-area{
     padding-bottom: 50px;
     padding-right: 200px;
+}
+
+.title{
+    text-align: center;
+    padding-top: 50px;
+}
+.text{
+    margin: 0px 500px;
+    padding-top: 20px;
+    padding-bottom: 0px;
+}
+.one-third{
+    width: 25%;
+    box-shadow: 0 0 20px 10px gray;
+    padding:10px 10px 10px 10px;
+    margin: 30px 100px 30px 30px;
+    border-radius: 20px;
+}
+
+.one-third img{
+    width: 100%;
+    
+}
+
+.recipies{
+    padding-left: 100px;
+}
+
+.popularity{
+    box-shadow: 0 0 20px 10px gray;
+    border-radius: 20px;
+    margin: 70px 140px;
+    padding: 0px 60px;
+}
+
+.popularity-view{
+    padding-right: 250px;
+    padding-top: 0px;
+    height: 200px;
+}
+
+.view-count{
+    padding-bottom: 0px;
+    height:30px;
+}
+
+.popularity-view h5{
+    /* padding-top: 0px; */
+    /* padding-bottom: 40px; */
+    padding-left: 10px;
+    
+}
+
+footer{
+    background-color:black;
+    height: 200px;
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+}
+
+footer h2{
+    
 }
